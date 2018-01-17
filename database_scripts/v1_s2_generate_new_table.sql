@@ -15,6 +15,6 @@ CREATE TABLE goal (
 	start_timestamp int NOT NULL,
 	deadline_timestamp NOT NULL,
         end_timestamp,
-        name NOT NULL,
+        name,
 	PRIMARY KEY (id)
   );
