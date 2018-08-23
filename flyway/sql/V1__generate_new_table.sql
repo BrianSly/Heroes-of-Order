@@ -13,8 +13,8 @@ CREATE TABLE goal (
 	task_type_id int NOT NULL,
 	task_count int NOT NULL,
 	start_timestamp int NOT NULL,
-	deadline_timestamp NOT NULL,
-        end_timestamp,
-        name,
+	deadline_timestamp datetime,
+	end_timestamp int, 
+	name int,
 	PRIMARY KEY (id)
   );
